@@ -1,0 +1,15 @@
+{
+  "name": "cctns-mock-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.4",
+    "express": "^5.1.0",
+    "mysql2": "^3.24.4"
+  }
+}
